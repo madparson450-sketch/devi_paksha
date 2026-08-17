@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Devi Paksha</title>
+    </head>
+    <style>
+        body{
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .me{
+            display: flex;
+            justify-content: left;
+            gap: 10px;
+        }
+        button{
+            background: transparent;
+            border: solid;
+            color: #f5c70f;
+            padding: 12px;
+            border-radius: 30px;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            gap:20px;
+        }
+    </style>
+    <body background="./image/WhatsApp Image 2026-08-16 at 11.29.26.jpeg">
+        <!-- Background music -->
+        <audio id="bgmusic" autoplay loop>
+            <source src="./audio/Durga-Puja-Dhak-Copyright-Free-Music.mp3" type="audio/mpeg">
+        </audio>
+        <script>
+             document.addEventListener("click",function
+             (){
+             document.getElementById("bgmusic").play();
+             },{once: true});
+        </script>
+        <div class="me">
+            <h1 style="color: rgb(212, 167, 68); font-size: 20px;">দেবীপক্ষ</h1>
+            <h2 style="color: rgb(212, 167, 68); font-size: 15px;">Devi Paksha</h2>
+        </div>
+        <div class="container">
+            <div>
+                <button>
+                       <span style="color: rgb(212, 167, 68); font-size: 15px;">মহালয়া</span>
+                       <small style="color: rgb(212, 167, 68); font-size: 10px; display: flex;">MAHALAYA</small>
+                </button>
+                <button>
+                       <span style="color: rgb(212, 167, 68); font-size: 15px;">ষষ্ঠী</span>
+                       <small style="color: rgb(212, 167, 68); font-size: 10px; display: flex;">SHASHTI</small>
+                </button>
+                <button>
+                        <span style="color: rgb(212, 167, 68); font-size: 15px;">সপ্তমী</span>
+                        <small style="color: rgb(212, 167, 68); font-size: 10px; display: flex;">SAPTAMI</small>
+                </button>
+                <button>
+                        <span style="color: rgb(212, 167, 68); font-size: 15px;">সপ্তমী</span>
+                        <small style="color: rgb(212, 167, 68); font-size: 10px; display: flex;">SAPTAMI</small>
+                </button>
+                <button>
+                        <span style="color: rgb(212, 167, 68); font-size: 15px;">অষ্টমী</span>
+                        <small style="color: rgb(212, 167, 68); font-size: 10px; display: flex;">ASHTAML</small>
+                </button>
+                <button>
+                        <span style="color: rgb(212, 167, 68); font-size: 15px;">নবমী</span>
+                        <small style="color: rgb(212, 167, 68); font-size: 10px; display: flex;">NABAMI</small>
+                </button>
+                <button>
+                        <span style="color: rgb(212, 167, 68); font-size: 15px;">দশমী</span>
+                        <small style="color: rgb(212, 167, 68); font-size: 10px; display: flex;"> DASHAML</small>
+                 </button>
+            </div>
+            <div style="display: flex; justify-content: left; gap: 20px">
+                <button>
+                       <span style="color: rgb(212, 167, 68); font-size: 15px;">☀️ Day</span>
+                </button>
+                <button>
+                    <span style="color: rgb(212, 167, 68); font-size: 15px;">🌜Nigth </span>
+                </button>
+            </div>
+        </div>
+    </body>
+</html>
